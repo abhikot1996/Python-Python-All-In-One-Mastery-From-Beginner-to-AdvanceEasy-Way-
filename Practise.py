@@ -257,18 +257,81 @@
 #     print(i,end=" ")
 
 # Program to print user choice even natural numbers
-print("Enter Lower and Upper limits of even natural numbers: ")
-no1,no2 = int(input()), int(input())
+# print("Enter Lower and Upper limits of even natural numbers: ")
+# no1,no2 = int(input()), int(input())
+# # j=0
+# if no1%2:
+#     no1+=1
+#     j=no1
+# else:
+#     no1+=2
+#     j=no1
+# for _ in range(no1,no2+1):
+#     if j<no2:
+#         print(j,end=" ")
+#         j+=2
+#         if j==no2:
+#             break
+
+# program to print first n odd natural numbers
+# no = int(input("Enter number: "))
+# for i in range(no):
+#     print(i*2+1,end=" ")
+
+# program to print first n even natural numbers in reverse order
+# no = int(input("Enter no: "))
+# j = no*2
+# for _ in range(no):
+#     print(j,end=" ")
+#     j-=2
+
+# program to print first n odd natural numbers in reverse order
+# no = int(input("Enter no: "))
+# j= no*2-1
+# for _ in range(no):
+#     print(j,end=" ")
+#     j-=2
+
+# Program to print table user's choice
+# table=int(input("Enter table no: "))
+# for i in range(1,11):
+#     print(f"{table} * {i} = {table*i}")
+
+# Program to print sum of N natural numbers
+# no = int(input("Enter no: "))
 # j=0
-if no1%2:
-    no1+=1
-    j=no1
-else:
-    no1+=2
-    j=no1
-for _ in range(no1,no2+1):
-    if j<no2:
-        print(j,end=" ")
-        j+=2
-        if j==no2:
-            break
+# for i in range(1,no+1):
+#    j+=i
+# print(j)
+
+# Program to calculate product of N natural numbers
+# no = int(input("Enter no: "))
+# j=1
+# for i in range(1,no+1):
+#     j*=i
+# print(j)
+
+# print factorial of N natural numbers
+# no = int(input("Enter no: "))
+# j=no
+# k = 1
+# for _ in range(1,no+1):
+#     k*=j
+#     j-=1
+# print(k)
+
+# # program to calculate sum of first n even natural numbers
+# no = int(input("Enter no: "))
+# j=0
+# for i in range(1,no+1):
+#     m = i *2
+#     j+=m
+# print(j)
+
+# program to calculate sum of first n odd natural numbers
+# no = int(input("Enter no: "))
+# j=0
+# for i in range(1,no+1):
+#     m = i * 2 - 1
+#     j+=m
+# print(j)
