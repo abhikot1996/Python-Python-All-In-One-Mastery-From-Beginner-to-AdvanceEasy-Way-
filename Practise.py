@@ -409,3 +409,27 @@
 #         print(min)
 #         break
 #     min-=1
+
+# Program to find given number is Prime or not
+# no = int(input("Enter no : "))
+# for i in range(2,no):
+#     if no%i==0:
+#         print(f"{no} is not Prime number")
+#         break
+# else:
+#     print(f"{no} is Prime number")
+
+# Program to print all prime numbers b/w two numbers
+# no1,no2 = int(input("Enter Lower limit: ")), int(input("Enter Upper limit: "))
+# if no1 < 1 or no1>no2 :
+#     print('''Number should be greater than 0
+# or Upper limit shold be greater
+# than Lower limit ''')
+# else:
+#     for i in range(no1,no2+1):
+#         for j in range(2,i):
+#             if i%j==0:
+#                 break
+#         else:
+#             print(f"{i}",end=" ")
+
