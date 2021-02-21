@@ -335,3 +335,77 @@
 #     m = i * 2 - 1
 #     j+=m
 # print(j)
+
+# Program to calculate x power y
+# print("Enter values of x and y: ")
+# x,y = int(input()), int(input())
+# print(x**y)
+
+# Program to calculate digits of number
+# no = int(input("Enter no: "))
+# # no1=str(no)
+# print(len(str(no)))
+
+# Program to calculate sum of digits of given number
+# no = int(input("Enter no: "))
+# y= 0
+# while no!=0:
+#     x = no % 10
+#     y = x + y
+#     no = no//10
+# print(f" Sum of digits : {y}")
+
+# Program to reverse number
+# no = int(input("Enter no : "))
+# no1=str(no)
+# # no2=no1(reverse=True)
+# print(no1[::-1])
+
+# Program to print Armstrong numbers b/w 1 to 1000
+# print("Upper and Lower limit: ")
+# no1,no2 = int(input()),int(input())
+# for i in range(no1,no2+1):
+#     digit = len(str(i))
+#     j=i
+#     y=0
+#     while j!=0:
+#         x = j%10
+#         y = x**digit+y
+#         j = j//10
+#     if y == i:
+#             print(i,end=" ")
+
+# Program to print Armstrong numbers b/w 1 to 1000 YouTube Logic
+# lower = int(input("Enter Lower limit : "))
+# upper = int(input("Enter Upper limit : "))
+# for num in range(lower,upper+1):
+#     order = len(str(num))
+#     sum=0
+#     temp=num
+#     while temp !=0:
+#         digit =temp%10
+#         sum+=digit ** order
+#         temp //=10
+#     if num == sum:
+#         print(num)
+
+# Program to print LCM(List Common Multiple) of two numbers
+# print("Enter two numbers: ")
+# no1,no2 = int(input()), int(input())
+# for i in range(1,no1*no2+1):
+#     if i % no1 == 0 and i % no2 == 0:
+#         print(i)
+#         break
+
+# Program to print HCF ( Highest Common Factor) of two numbers
+# print("Enter two numbers: ")
+# no1,no2 = int(input()), int(input())
+# if no1<no2:
+#     min = no1
+# else:
+#     min = no2
+# for i in range(1,min+1):
+#     if no1%min == 0 and no2%min == 0:
+#         print(min)
+#         break
+#     min-=1
