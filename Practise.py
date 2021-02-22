@@ -433,3 +433,23 @@
 #         else:
 #             print(f"{i}",end=" ")
 
+# Program to find Prime Factor of given number
+no = int(input("Enter no: "))
+no1=no
+j=2
+while no1 != 1:
+    # if j<no1:
+        for loop1 in range(2,j):
+            if j % loop1 == 0:
+                j += 1
+                break
+        else:
+            if no1 % j == 0:
+                print(j,end = " ")
+                no1=no1//j
+                j+=1
+                # if no1 % j:
+                #     j += 1
+
+
+
