@@ -443,7 +443,7 @@ while no != 1:
             break
     else:
         while no%j==0:
-            print(j,end=" ")
+            print(f"{j}",end=" ")
             no//=j
         j+=1
 
