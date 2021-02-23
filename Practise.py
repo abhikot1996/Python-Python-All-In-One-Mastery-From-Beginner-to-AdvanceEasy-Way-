@@ -421,8 +421,8 @@
 
 # Program to print all prime numbers b/w two numbers
 # no1,no2 = int(input("Enter Lower limit: ")), int(input("Enter Upper limit: "))
-# if no1 < 1 or no1>no2 :
-#     print('''Number should be greater than 0
+# if no1 < 2 or no1>no2 :
+#     print('''Lower limit should be greater than 1
 # or Upper limit shold be greater
 # than Lower limit ''')
 # else:
@@ -434,19 +434,43 @@
 #             print(f"{i}",end=" ")
 
 # Program to find Prime Factor of given number
-no = int(input("Enter no: "))
-j = 2
-while no != 1:
-    for i in range(2,j):
-        if j % i ==0:
-            # j+=1
-            break
-    else:
-        while no%j==0:
-            print(f"{j}",end=" ")
-            no//=j
-        # j+=1
-    j+=1
+# no = int(input("Enter no: "))
+# j = 2
+# while no != 1:
+#     for i in range(2,j):
+#         if j % i ==0:
+#             # j+=1
+#             break
+#     else:
+#         while no%j==0:
+#             print(f"{j}",end=" ")
+#             no//=j
+#         # j+=1
+#     j+=1
 
+# Program to print n Fibonacci series
+# no = int(input("Enter no: "))
+# a = -1
+# b = 1
+# c = 0
+# for i in range(1,no+1):
+#     c=a+b
+#     a=b
+#     b=c
+#     print(c,end=" ")
+
+# Program to check given two numbers Co-Prime or not
+# print("Enter no: ")
+# no1, no2 = int(input()), int(input())
+# if no1<no2:
+#     min=no1
+# else:
+#     min=no2
+# for i in range(2, min + 1):
+#     if no1%i==0 and no2%i==0:
+#         print(f"{no1} and {no2} are not Co-Prime numbers")
+#         break
+# else:
+#     print(f"{no1} and {no2} are Co-Prime numbers")
 
 
