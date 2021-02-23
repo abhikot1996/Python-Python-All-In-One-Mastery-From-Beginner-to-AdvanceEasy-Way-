@@ -439,13 +439,14 @@ j = 2
 while no != 1:
     for i in range(2,j):
         if j % i ==0:
-            j+=1
+            # j+=1
             break
     else:
         while no%j==0:
             print(f"{j}",end=" ")
             no//=j
-        j+=1
+        # j+=1
+    j+=1
 
 
 
