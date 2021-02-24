@@ -473,4 +473,27 @@
 # else:
 #     print(f"{no1} and {no2} are Co-Prime numbers")
 
-
+# Program to print N Co-Prime numbers
+no = int(input("Enter no: "))
+a=2
+b=3
+index=1
+if a<b: min = a
+else: min = b
+while no!=0:
+    for i in range(2,min+1):
+        if a%i==0 and b%i==0:
+            if b<10:
+                b+=1
+            else:
+                a+=1
+                b=2
+            break
+    else:
+            print(f"{index}. <{a},{b}>")
+            if b<10: b+=1
+            else:
+                a+=1
+                b=2
+            no-=1
+            index+=1
