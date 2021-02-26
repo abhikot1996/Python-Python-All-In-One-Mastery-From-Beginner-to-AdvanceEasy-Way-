@@ -511,7 +511,7 @@
 #  * *
 #  * * *
 #  * * * *
-# * * * * *
+#  * * * * *
 
 # 2)
 # for rows in range(1,6):
@@ -545,9 +545,38 @@
 #        * *
 #          *
 
+# 4) program to print following start pattern taking user input row numbers
+# r1=int(input("Enter no of rows: "))
+# c1=r1
+# m=r1+1
+# for r in range(1,r1+1):
+#     for c in range(1,c1+1):
+#         if c<=m-r:
+#             print("*",end=" ")
+#     print(end="" "\n")
 
+#  o/p
+#  Enter no of rows: 6
+#  * * * * * *
+#  * * * * *
+#  * * * *
+#  * * *
+#  * *
+#  *
 
+# 5)
+for r in range(1,6):
+    for c in range(1,10):
+        if c>=6-r and c<=4+r: print(c,end=" ")
+        else: print(" ",end=" ")
+    print(end=" ""\n")
 
+#  o/p
+#          *
+#        * * *
+#      * * * * *
+#    * * * * * * *
+#  * * * * * * * * *
 
 
 
