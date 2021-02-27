@@ -28,7 +28,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Python.PracticeWebExersicesProgram">
+  <component name="RunManager" selected="Python.Practise">
     <configuration name="PracticeWebExersicesProgram" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GitHub" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -94,8 +94,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.PracticeWebExersicesProgram" />
         <item itemvalue="Python.Practise" />
+        <item itemvalue="Python.PracticeWebExersicesProgram" />
         <item itemvalue="Python.WebExersicesProgram" />
       </list>
     </recent_temporary>
