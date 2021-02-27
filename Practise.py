@@ -565,11 +565,11 @@
 #  *
 
 # 5)
-for r in range(1,6):
-    for c in range(1,10):
-        if c>=6-r and c<=4+r: print(c,end=" ")
-        else: print(" ",end=" ")
-    print(end=" ""\n")
+# for r in range(1,6):
+#     for c in range(1,10):
+#         if c>=6-r and c<=4+r: print(c,end=" ")
+#         else: print(" ",end=" ")
+#     print(end=" ""\n")
 
 #  o/p
 #          *
@@ -578,5 +578,32 @@ for r in range(1,6):
 #    * * * * * * *
 #  * * * * * * * * *
 
+# 6)
+# for r in range(1,6):
+#     for c in range(1,10):
+#         if r % 2:
+#             if c>=6-r and c<=4+r:
+#                 if c%2:
+#                     print("*",end=" ")
+#                 else:
+#                     print(" ", end=" ")
+#             else:
+#                print(" ",end=" ")
+#         else:
+#             if c>=6-r and c<=4+r:
+#                 if c%2==0:
+#                     print("*",end=" ")
+#                 else:
+#                     print(" ", end=" ")
+#
+#             else:
+#                 print(" ",end=" ")
+#     print(end=" ""\n")
 
+# o/p
+#          *
+#        *   *
+#      *   *   *
+#    *   *   *   *
+#  *   *   *   *   *
 
