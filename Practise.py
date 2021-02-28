@@ -607,3 +607,37 @@
 #    *   *   *   *
 #  *   *   *   *   *
 
+# # 7)
+# for r in range(1,6):
+#     for c in range(1,10):
+#         if c<=6-r or c>=4+r:
+#             print("*",end=" ")
+#         else:
+#             print(" ",end=" ")
+#     print(end=" ""\n")
+
+# o/p
+#   * * * * * * * * *
+#   * * * *   * * * *
+#   * * *       * * *
+#   * *           * *
+#   *               *
+
+# for r in range(1,5):
+#     a=1
+#     for c in range(1,8):
+#         if c>=5-r and c<= 3+r:
+#             if c<=4:
+#                 print(a,end=" ")
+#                 if c<4: a+=1
+#             else:
+#                 a-=1
+#                 print(a,end=" ")
+#         else: print(" ",end=" ")
+#     print(end="\n")
+
+# o/p
+#        1        
+#      1 2 1      
+#    1 2 3 2 1    
+#  1 2 3 4 3 2 1
