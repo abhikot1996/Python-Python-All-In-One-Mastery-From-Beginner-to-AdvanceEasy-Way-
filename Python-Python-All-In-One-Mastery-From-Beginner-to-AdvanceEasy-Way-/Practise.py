@@ -623,6 +623,7 @@
 #   * *           * *
 #   *               *
 
+# 8)
 # for r in range(1,5):
 #     a=1
 #     for c in range(1,8):
@@ -641,3 +642,25 @@
 #      1 2 1      
 #    1 2 3 2 1    
 #  1 2 3 4 3 2 1
+
+# 9)
+for r in range(1,5):
+    a=1
+    for c in range(1,8):
+        if c<=5-r or c>=3+r:
+            if c<=4:
+                print(a,end=" ")
+                if c<4:
+                    a+=1
+            else:
+                a-=1
+                print(a,end=" ")
+        else:
+            print(" ",end=" ")
+    print(end="\n")
+
+#  o/p
+#  1 2 3 4 3 2 1
+#  1 2 3   3 2 1
+#  1 2       2 1
+#  1           1
