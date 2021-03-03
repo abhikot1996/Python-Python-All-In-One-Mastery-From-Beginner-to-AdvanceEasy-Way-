@@ -688,3 +688,27 @@
 #   * * * * *
 #     * * *
 #       *
+
+# 11)
+i=3
+for r in range(1,8):
+    for c in range(1,5):
+        if r<=4:
+            if c<=r:
+                print("*",end="")
+        else:
+            if c<=i:
+                print("*",end="")
+    if r>4:
+        i-=1
+    print(end="\n")
+
+#  o/p
+#  *
+#  **
+#  ***
+#  ****
+#  ***
+#  **
+#  *
+
