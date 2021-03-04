@@ -690,18 +690,18 @@
 #       *
 
 # 11)
-i=3
-for r in range(1,8):
-    for c in range(1,5):
-        if r<=4:
-            if c<=r:
-                print("*",end="")
-        else:
-            if c<=i:
-                print("*",end="")
-    if r>4:
-        i-=1
-    print(end="\n")
+# i=3
+# for r in range(1,8):
+#     for c in range(1,5):
+#         if r<=4:
+#             if c<=r:
+#                 print("*",end="")
+#         else:
+#             if c<=i:
+#                 print("*",end="")
+#     if r>4:
+#         i-=1
+#     print(end="\n")
 
 #  o/p
 #  *
@@ -712,3 +712,13 @@ for r in range(1,8):
 #  **
 #  *
 
+# 12)
+i=7
+for r in range(1,5):
+    for c in range(1,8):
+        if c>=r and c<=i:
+            print("*",end=" ")
+        else:
+            print(" ",end=" ")
+    i-=1
+    print(end="\n")
