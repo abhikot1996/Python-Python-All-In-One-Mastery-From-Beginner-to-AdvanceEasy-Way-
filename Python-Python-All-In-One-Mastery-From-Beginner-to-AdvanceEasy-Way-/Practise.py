@@ -739,4 +739,19 @@
 # **
 # *
 
+# 14)
+for r in range(1,5):
+    i=r
+    for c in range(1,8):
+        if c>=5-r and c<=3+r:
+            if c<=4:
+                print(i,end=" ")
+                if c<4:
+                    i+=1
+            else:
+                i-=1
+                print(i,end=" ")
+        else:
+            print(" ",end=" ")
+    print(end="\n")
 
