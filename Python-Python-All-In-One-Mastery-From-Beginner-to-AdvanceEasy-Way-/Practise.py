@@ -713,12 +713,30 @@
 #  *
 
 # 12)
-i=7
-for r in range(1,5):
-    for c in range(1,8):
-        if c>=r and c<=i:
-            print("*",end=" ")
-        else:
-            print(" ",end=" ")
-    i-=1
-    print(end="\n")
+# i=7
+# for r in range(1,5):
+#     for c in range(1,8):
+#         if c>=r and c<=i:
+#             print("*",end=" ")
+#         else:
+#             print(" ",end=" ")
+#     i-=1
+#     print(end="\n")
+
+# 13)
+# length = 4
+# for pos in range(1,length+1):
+#     print("*"*pos)
+# for pos in range(length-1,0,-1):
+#     print("*"*pos)
+
+# o/p
+# *
+# **
+# ***
+# ****
+# ***
+# **
+# *
+
+
