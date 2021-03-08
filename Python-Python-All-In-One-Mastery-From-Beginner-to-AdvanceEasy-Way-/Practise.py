@@ -762,13 +762,13 @@
 # 4 5 6 7 6 5 4
 
 # 15)
-for r in range(1,8):
-    i=7-r
-    for c in range(1,8):
-        if c<=8-r:
-            print(i,end=" ")
-            i-=1
-    print(end="\n")
+# for r in range(1,8):
+#     i=7-r
+#     for c in range(1,8):
+#         if c<=8-r:
+#             print(i,end=" ")
+#             i-=1
+#     print(end="\n")
 
 # o/p
 # 6 5 4 3 2 1 0
@@ -778,5 +778,35 @@ for r in range(1,8):
 # 2 1 0
 # 1 0
 # 0
+
+# 16)
+# for r in range(1,10):
+#     i=1
+#     for c in range(1,6):
+#         if r<=5:
+#             if c>=6-r:
+#                 print(i,end=" ")
+#                 i+=1
+#             else:
+#                 print(" ",end=" ")
+#         else:
+#             if c>=r-4:
+#                 print(i,end=" ")
+#                 i+=1
+#             else:
+#                 print(" ",end=" ")
+#     print(end="\n")
+
+# o/p
+#          1
+#        1 2
+#      1 2 3
+#    1 2 3 4
+#  1 2 3 4 5
+#    1 2 3 4
+#      1 2 3
+#        1 2
+#          1
+
 
 
