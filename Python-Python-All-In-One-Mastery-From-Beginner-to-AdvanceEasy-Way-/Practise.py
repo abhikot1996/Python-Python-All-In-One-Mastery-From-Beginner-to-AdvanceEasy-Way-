@@ -828,6 +828,34 @@
 # */***\*
 # /*****\
 
+# 18)
+# i=8
+# for r in range(1,10):
+#     for c in range(1,10):
+#         if r<=5:
+#             if c<=6-r or c>=4+r:
+#                 print("*",end=" ")
+#             else:
+#                 print(" ",end=" ")
+#         else:
+#             if c<=r-4 or c>=i:
+#                 print("*",end=" ")
+#             else:
+#                 print(" ",end=" ")
+#     print(end="\n")
+#     if r>5:
+#         i-=1
+
+#  o/p
+#  * * * * * * * * *
+#  * * * *   * * * *
+#  * * *       * * *
+#  * *           * *
+#  *               *
+#  * *           * *
+#  * * *       * * *
+#  * * * *   * * * *
+#  * * * * * * * * *
 
 
 
