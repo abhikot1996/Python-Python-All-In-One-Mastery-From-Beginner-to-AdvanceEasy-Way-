@@ -857,5 +857,18 @@
 #  * * * *   * * * *
 #  * * * * * * * * *
 
+# 19)
+# for r in range(1,6):
+#     for c in range(1,10):
+#         if c>=r and c<=10-r:
+#             print("*",end="")
+#         else:
+#             print(" ",end="")
+#     print(end="\n")
 
-
+# o/p
+# *********
+#  *******
+#   *****
+#    ***
+#     *
