@@ -872,3 +872,18 @@
 #   *****
 #    ***
 #     *
+
+# 20)
+# for r in range(1,5):
+#     for c in range(1,9):
+#         if c>=5-r and c<=9-r:
+#             print("*",end="")
+#         else:
+#             print(" ",end="")
+#     print(end="\n")
+#
+#  o/p
+#    *****
+#   *****
+#  *****
+# *****   
