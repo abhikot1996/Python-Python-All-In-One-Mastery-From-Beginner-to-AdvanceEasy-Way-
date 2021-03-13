@@ -886,4 +886,28 @@
 #    *****
 #   *****
 #  *****
-# *****   
+# *****
+
+# 21)
+# row = int(input("Enter no of rows: "))
+# for r in range(1,row+1):
+#     i=1
+#     print(r,end=".")
+#     for c in range(1,row+1):
+#         if c<=r:
+#             print(i,end="")
+#             if c%2:
+#                 i-=1
+#             else:
+#                 i+=1
+#         else:
+#             print(" ",end="")
+#     print(end="\n")
+
+# o/p
+#  Enter no of rows: 5
+#  1.1
+#  2.10
+#  3.101
+#  4.1010
+#  5.10101
