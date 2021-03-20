@@ -756,7 +756,7 @@
 #     print(end="\n")
 
 #  o/p
-#      1
+#       1
 #     2 3 2
 #   3 4 5 4 3
 # 4 5 6 7 6 5 4
@@ -988,3 +988,36 @@
 #                 2 2 2 2 2
 #                   1 1 1
 #                     0
+
+# 24)
+i,j = 20,0
+for r in range(1,22):
+    if j==10:
+        j=0
+    for c in range(1,22):
+        if r<=11:
+            if c>=12-r and c<=10+r:
+                if c <= 11 and j<=9:
+                    print(j,end=" ")
+                    if c<11:
+                        j+=1
+                    if j>9:
+                        j=0
+                else:
+                    if j==0:
+                        j=10
+                    j-=1
+                    print(j, end=" ")
+            else:
+                print(" ",end=" ")
+        else:
+            if c>=r-10 and c<=i:
+                print("*",end=" ")
+            else:
+                print(" ",end=" ")
+    if r>11:
+        i-=1
+    elif r<=10:
+        if j<=9:
+            j+=1
+    print(end="\n")
