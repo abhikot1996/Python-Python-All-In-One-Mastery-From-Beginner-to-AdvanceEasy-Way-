@@ -990,54 +990,54 @@
 #                     0
 
 # 24)
-i = 20
-j=0
-k=9
-for r in range(1,22):
-    if j==10:
-        j=0
-    for c in range(1,22):
-        if r<=11:
-            if c>=12-r and c<=10+r:
-                if c <= 11 and j<=9:
-                    print(j,end=" ")
-                    if c<11:
-                        j+=1
-                    if j>9:
-                        j=0
-                else:
-                    if j==0:
-                        j=10
-                    j-=1
-                    print(j, end=" ")
-            else:
-                print(" ",end=" ")
-        else:
-            if c>=r-10 and c<=i:
-                if c<=11:
-                    print(k,end=" ")
-                    if k==9:
-                        k=-1
-                    if k>=-1:
-                        if c<11:
-                            k+=1
-                else:
-                    if k==0:
-                        k=10
-                    k -= 1
-                    print(k,end=" ")
-
-
-            else:
-                print(" ",end=" ")
-    if r>11:
-        i-=1
-        if k<=9:
-            k-=1
-    elif r<=10:
-        if j<=9:
-            j+=1
-    print(end="\n")
+# i = 20
+# j=0
+# k=9
+# for r in range(1,22):
+#     if j==10:
+#         j=0
+#     for c in range(1,22):
+#         if r<=11:
+#             if c>=12-r and c<=10+r:
+#                 if c <= 11 and j<=9:
+#                     print(j,end=" ")
+#                     if c<11:
+#                         j+=1
+#                     if j>9:
+#                         j=0
+#                 else:
+#                     if j==0:
+#                         j=10
+#                     j-=1
+#                     print(j, end=" ")
+#             else:
+#                 print(" ",end=" ")
+#         else:
+#             if c>=r-10 and c<=i:
+#                 if c<=11:
+#                     print(k,end=" ")
+#                     if k==9:
+#                         k=-1
+#                     if k>=-1:
+#                         if c<11:
+#                             k+=1
+#                 else:
+#                     if k==0:
+#                         k=10
+#                     k -= 1
+#                     print(k,end=" ")
+#
+#
+#             else:
+#                 print(" ",end=" ")
+#     if r>11:
+#         i-=1
+#         if k<=9:
+#             k-=1
+#     elif r<=10:
+#         if j<=9:
+#             j+=1
+#     print(end="\n")
 
 # o/p
 #                     0
@@ -1061,3 +1061,43 @@ for r in range(1,22):
 #                 2 3 4 3 2
 #                   1 2 1
 #                     0
+
+# 25)
+# for r in range(1,5):
+#     r1=r
+#     for c in range(1,5):
+#         if c<=r:
+#             print(r1,end=" ")
+#             r1-=1
+#         else:
+#             print(" ",end=" ")
+#     print(end="\n")
+
+# o/p
+# 1
+# 2 1
+# 3 2 1
+# 4 3 2 1
+
+# 26)
+# for r in range(1,5):
+#     r1=r
+#     for c in range(1,8):
+#         if c>=5-r and c<=3+r:
+#             if c<=4:
+#                 print(r1,end="")
+#                 if c<4:
+#                     r1-=1
+#             else:
+#                 r1+=1
+#                 print(r1,end="")
+#         else:
+#             print(" ",end="")
+#     print(end="\n")
+
+# o/p
+#    1
+#   212
+#  32123
+# 4321234
+
