@@ -1101,3 +1101,49 @@
 #  32123
 # 4321234
 
+# 27)
+i = -1
+# for r in range(1,6):
+#     i+=2
+#     if r<=3:
+#         r1=r
+#     else: r1=r+5
+#     if r>1:
+#         if r % 2==0:
+#             r1 += 1
+#     for c in range(1,10):
+#         if c<=i:
+#             if r<=3:
+#                 if c%2:
+#                     if r>1 and r%2:
+#                         r1+=1
+#                     print(r1,end="")
+#                     if r%2 == 0:
+#                         r1-=1
+#                 else:
+#                     print("*",end="")
+#
+#             else:
+#                 if r%2==0:
+#                     if c%2:
+#                         print(r1,end="")
+#                         r1-=1
+#                     else:
+#                         print("*",end="")
+#                 else:
+#                     if c%2:
+#                         r1 += 1
+#                         print(r1,end="")
+#                     else:
+#                         print("*",end="")
+#
+#
+#     print(end="\n")
+
+# o/p
+# 1
+# 3*2
+# 4*5*6
+# 10*9*8*7
+# 11*12*13*14*15
+
