@@ -1102,7 +1102,7 @@
 # 4321234
 
 # 27)
-i = -1
+# i = -1
 # for r in range(1,6):
 #     i+=2
 #     if r<=3:
@@ -1136,8 +1136,6 @@ i = -1
 #                         print(r1,end="")
 #                     else:
 #                         print("*",end="")
-#
-#
 #     print(end="\n")
 
 # o/p
@@ -1146,4 +1144,74 @@ i = -1
 # 4*5*6
 # 10*9*8*7
 # 11*12*13*14*15
+
+# 28)
+# i,j = 1,2
+# for r in range(1,6):
+#     if r>1:
+#         i+=j
+#     for c in range(1,6):
+#         if c>=6-r:
+#             print(i,end=" ")
+#             if r>1 and c!=5:
+#                 i-=1
+#         else:
+#             print(" ",end=" ")
+#     if r>1:
+#         j+=2
+#     print(end="\n")
+
+# o/p
+#       1
+#       3 2
+#     6 5 4
+#   10 9 8 7
+# 15 14 13 12 11
+
+# 29)
+i=6
+for r in range(1,10):
+    if r > 8:
+        i+=2
+    for c in range(1,6):
+        if r==4 and c==3 or r==5 and c==3 or r==6 and c==3:
+            print("|",end=" ")
+        elif r<=3:
+            if c>=6-r:
+                print("*",end=" ")
+            else:
+                print(" ",end=" ")
+        elif r==4:
+            if c>=r :
+                print("*",end=" ")
+            elif c!= 3:
+                    print(" ",end=" ")
+        elif r == 5:
+            if c == 1 or c == 5:
+                print("*",end=" ")
+            elif c!=3: print(" ",end=" ")
+        elif r>5 and r<=7:
+                if c<=r-4:
+                    print("*",end=" ")
+                else:
+                    print(" ",end=" ")
+        else:
+            if c<=r-i:
+                print("*",end=" ")
+            else:
+                print(" ",end=" ")
+    print(end="\n")
+
+# o/p
+#         *
+#       * *
+#     * * *
+#     | * *
+# *   |   *
+# * * |
+# * * *
+# * *
+# *
+
+
 
