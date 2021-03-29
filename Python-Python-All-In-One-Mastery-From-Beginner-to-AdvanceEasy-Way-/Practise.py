@@ -1169,38 +1169,38 @@
 # 15 14 13 12 11
 
 # 29)
-i=6
-for r in range(1,10):
-    if r > 8:
-        i+=2
-    for c in range(1,6):
-        if r==4 and c==3 or r==5 and c==3 or r==6 and c==3:
-            print("|",end=" ")
-        elif r<=3:
-            if c>=6-r:
-                print("*",end=" ")
-            else:
-                print(" ",end=" ")
-        elif r==4:
-            if c>=r :
-                print("*",end=" ")
-            elif c!= 3:
-                    print(" ",end=" ")
-        elif r == 5:
-            if c == 1 or c == 5:
-                print("*",end=" ")
-            elif c!=3: print(" ",end=" ")
-        elif r>5 and r<=7:
-                if c<=r-4:
-                    print("*",end=" ")
-                else:
-                    print(" ",end=" ")
-        else:
-            if c<=r-i:
-                print("*",end=" ")
-            else:
-                print(" ",end=" ")
-    print(end="\n")
+# i=6
+# for r in range(1,10):
+#     if r > 8:
+#         i+=2
+#     for c in range(1,6):
+#         if r==4 and c==3 or r==5 and c==3 or r==6 and c==3:
+#             print("|",end=" ")
+#         elif r<=3:
+#             if c>=6-r:
+#                 print("*",end=" ")
+#             else:
+#                 print(" ",end=" ")
+#         elif r==4:
+#             if c>=r :
+#                 print("*",end=" ")
+#             elif c!= 3:
+#                     print(" ",end=" ")
+#         elif r == 5:
+#             if c == 1 or c == 5:
+#                 print("*",end=" ")
+#             elif c!=3: print(" ",end=" ")
+#         elif r>5 and r<=7:
+#                 if c<=r-4:
+#                     print("*",end=" ")
+#                 else:
+#                     print(" ",end=" ")
+#         else:
+#             if c<=r-i:
+#                 print("*",end=" ")
+#             else:
+#                 print(" ",end=" ")
+#     print(end="\n")
 
 # o/p
 #         *
@@ -1212,6 +1212,38 @@ for r in range(1,10):
 # * * *
 # * *
 # *
+
+# 30)
+# for r in range(1,5):
+#     i=1
+#     for c in range(1,8):
+#         if c>=5-r and c<=3+r:
+#             if r%2:
+#                 if c%2==0:
+#                     print(i,end="")
+#                     i+=1
+#                 else:
+#                     print(" ",end="")
+#             else:
+#                 if c%2:
+#                     print(i,end="")
+#                     i+=1
+#                 else:
+#                     print(" ",end="")
+#         else:
+#             print(" ",end="")
+#     print(end="\n")
+
+# o/p
+#    1
+#   1 2
+#  1 2 3
+# 1 2 3 4
+
+
+
+
+
 
 
 
