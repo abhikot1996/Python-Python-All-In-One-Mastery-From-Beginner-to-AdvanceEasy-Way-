@@ -1240,6 +1240,23 @@
 #  1 2 3
 # 1 2 3 4
 
+# 31)
+# for r in range(1,6):
+#     for c in range(1,6):
+#         if c==r or c==6-r:
+#             print("*",end=" ")
+#         else:
+#             print(" ",end=" ")
+#     print(end="\n")
+
+# *       *
+#   *   *   
+#     *
+#   *   *
+# *       *
+
+
+
 
 
 
