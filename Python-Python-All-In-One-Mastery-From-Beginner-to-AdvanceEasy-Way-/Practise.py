@@ -1255,6 +1255,21 @@
 #   *   *
 # *       *
 
+# 32)
+# for r in range(1,5):
+#     for c in range(1,8):
+#         if c<=5-r or c>=3+r:
+#             print(c,end=" ")
+#         else:
+#             print(" ",end=" ")
+#     print(end="\n")
+
+# o/p
+# 1 2 3 4 5 6 7
+# 1 2 3   5 6 7
+# 1 2       6 7
+# 1           7
+
 
 
 
